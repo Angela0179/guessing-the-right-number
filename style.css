@@ -14,10 +14,13 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-color: #fff;
-  background-image: url("download.jpeg");
-  background-position: center;
-  background-size: contain;
+  background-image: linear-gradient(
+    to right,
+    white,
+    rgba(1, 116, 110, 0.699),
+    white,
+    rgba(1, 116, 110, 0.699)
+  );
 
   object-fit: contain;
   display: flex;
